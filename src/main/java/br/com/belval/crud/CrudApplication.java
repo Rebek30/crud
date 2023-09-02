@@ -17,4 +17,6 @@ public class CrudApplication {
 	public String olaMundo() {
 		return "Olá Mundo!!!";
 	}
+	
+
 }
