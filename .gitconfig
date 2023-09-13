@@ -1,0 +1,6 @@
+[user]
+	email = rm92141.estudante.fieb.edu.br
+	name = Rebeca
+[core]
+	autocrlf = true
+	safecrlf = warn
