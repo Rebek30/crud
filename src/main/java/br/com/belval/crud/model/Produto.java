@@ -1,15 +1,18 @@
 package br.com.belval.crud.model;
 
 public class Produto {
-
+	
 	private int id;
 	private String nome;
 	private String descricao;
 	private double preco;
-
+	
+	
+	
 	public Produto() {
 	}
 
+	
 	public Produto(int id, String nome, String descricao, double preco) {
 		this.id = id;
 		this.nome = nome;
@@ -17,6 +20,8 @@ public class Produto {
 		this.preco = preco;
 	}
 
+	
+	
 	public int getId() {
 		return id;
 	}
@@ -49,9 +54,10 @@ public class Produto {
 		this.preco = preco;
 	}
 
+	
+	
 	@Override
 	public String toString() {
 		return "Produto [id=" + id + ", nome=" + nome + ", descricao=" + descricao + ", preco=" + preco + "]";
 	}
-
 }
